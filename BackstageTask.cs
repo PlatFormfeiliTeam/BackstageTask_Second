@@ -269,7 +269,7 @@ namespace BackstageTask_Second
                                         }
                                         catch (Exception ex)
                                         {
-                                            this.button3.Text = "big5_to_utf8_" + ex.Message;
+                                            this.button3.Text = ex.Message;
                                             working3 = false;
                                             break;//add by panhuaguo 20170118
                                         }
@@ -305,7 +305,7 @@ namespace BackstageTask_Second
                 }
                 catch (Exception ex)
                 {
-                    this.button3.Text = "out_" + ex.Message;
+                    this.button3.Text = ex.Message;
                 }
                 finally
                 {
