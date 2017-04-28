@@ -54,6 +54,7 @@
             // 
             // button1
             // 
+            this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(183, 31);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(577, 23);
@@ -106,12 +107,13 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Yellow;
             this.button2.Location = new System.Drawing.Point(183, 72);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(577, 22);
             this.button2.TabIndex = 2;
             this.button2.Text = "启动";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
@@ -136,12 +138,14 @@
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.SystemColors.Control;
+            this.button4.Enabled = false;
             this.button4.Location = new System.Drawing.Point(183, 152);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(577, 22);
             this.button4.TabIndex = 5;
             this.button4.Text = "启动";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // timer4
